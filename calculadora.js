@@ -1,0 +1,18 @@
+var numero = prompt ('dame un numero')
+var numero2 = prompt (' bueno, dame otro numero')
+var suma = parseInt(numero)+parseInt(numero2 )
+var resta = parseInt(numero)-parseInt(numero2)
+var multiplicacion = parseInt(numero)*parseInt(numero2)
+var division = parseInt(numero)/parseInt(numero2)
+var respuesta = prompt ('que quieres hacer?')
+if (respuesta == 'suma' )
+alert ('la suma de '+ numero+ ' mas '+ numero2+ ' es '+suma)
+else if (respuesta == 'resta')
+alert ('la '+respuesta+ ' de '  + numero +' menos ' +numero2+ ' es ' +resta)
+else if(respuesta == 'multiplicar')
+alert ('la ' +respuesta+ 'de ' +numero+ ' x ' +numero2+ 'es ' +multiplicacion) 
+else if (respuesta == 'dividir')
+alert ('la division de ' +numero+ ' & ' +numero2+ ' es ' +division )
+else 
+alert (' no tengo esa funcion ') 
+
